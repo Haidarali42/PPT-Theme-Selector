@@ -1,0 +1,399 @@
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+  }
+  
+  .button-contain {
+    margin-right: 16px; 
+  }
+  .back{
+    background-color: white !important;
+    color: black !important;
+    border-radius: 20px !important;
+  }
+  
+  .progress {
+    flex: 1; 
+  }
+  .progress-bar{
+    background: rgb(33,21,233) !important;
+    background: linear-gradient(90deg, rgba(33,21,233,1) 0%, rgba(134,4,247,1) 0%, rgba(68,15,181,1) 50%, rgba(7,0,138,1) 100%) !important;
+    z-index: 1 !important;
+  }
+  .checkicon{
+    color: blueviolet !important;
+    font-size: 35px !important;
+    position: absolute;
+    right: 0;
+    z-index: 2 !important;
+  }
+  .right-container{
+    border: 1px solid lightgrey;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: whitesmoke !important;
+    width: 100%;
+    height: auto;
+  }
+  .stack{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+  @media screen and (max-width:425) {
+    .stack{
+        padding-left: 0px !important;
+    }
+  }
+  .tagline{
+    font-weight: 700;
+    font-family: p22-mackinac-pro;
+    color: rgb(10, 22, 41);
+    width: 100%;
+    height: auto;
+  }
+  .second-container{
+    margin-top: 2%;
+  }
+  .tip{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid lightgray;
+    width: 100%;
+    height: auto;
+    background-color: #e0e9fa85;
+  }
+  .surprisebtn{
+    color: black !important;
+    background-color: white !important;
+    text-transform: capitalize !important;
+    font-size: 20px !important;
+    width: 100%;
+  }
+  .continuebtn{
+    background-color: rgb(104, 18, 224) !important;
+    font-size: 20px !important;
+    text-transform: capitalize !important;
+    width: 100%;
+  }
+
+  .card-container {
+    width: 100%;
+    border-radius: 15px;
+}
+.card-container-wraper{
+    width: 100%;
+}
+.grid-container{
+    width: fit-content;
+    
+}
+@media (max-width: 720px) {
+    .grid-container {
+        flex-direction: row;
+        width: fit-content; 
+    }
+}
+.sub {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url('https://cdn.gamma.app/cdn-cgi/image/quality=80,fit=scale-down,onerror=redirect,width=250,height=250/https://cdn.gamma.app/theme_images/soft-background.adac2b12b3164d91b64117595332aa4f.svg');
+    background-size: cover;
+    border-radius: 15px;
+}
+.sub-contain{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(12, 12, 12) !important;
+    background-size: cover;
+    border-radius: 15px;
+}
+.sub-contain2{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url('https://images.unsplash.com/photo-1528731708534-816fe59f90cb?ixid=MnwxOTgwNzN8MHwxfHNlYXJjaHw0fHx3aGl0ZSUyMGdyYWRpZW50fGVufDF8fHx8MTY3NjkxMjMzNA&ixlib=rb-4.0.3&w=3000&q=25');
+    background-size: cover;
+    border-radius: 15px;
+}
+.sub-contain3{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(168, 175, 204);
+    background-size: cover;
+    border-radius: 15px;
+}
+.sub-contain4{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url('https://cdn.gamma.app/cdn-cgi/image/quality=80,fit=scale-down,onerror=redirect,width=250,height=250/https://cdn.gamma.app/theme_images/atmosphere-background.a041341a.png?w=2666&q=70');
+    background-size: cover;
+    border-radius: 15px;
+}
+.sub-contain5{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url('https://cdn.gamma.app/cdn-cgi/image/quality=80,fit=scale-down,onerror=redirect,width=250,height=250/https://cdn.gamma.app/theme_images/satellite-background.e070b8bc.jpg?w=2400&q=70');
+    background-size: cover;
+    border-radius: 15px;
+}
+.sub-contain6{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(237, 241, 248);
+    background-size: cover;
+    border-radius: 15px;
+}
+.sub-contain7{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(25, 25, 26);
+    background-size: cover;
+    border-radius: 15px;
+}
+.sub-contain8{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(237, 241, 248);
+    background-size: cover;
+    border-radius: 15px;
+}
+.sub-contain9{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(23, 27, 33);
+    background-size: cover;
+    border-radius: 15px;
+}
+.sub-contain10{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(170, 188, 182);
+    background-size: cover;
+    border-radius: 15px;
+}
+.sub-contain11{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(21, 13, 72);
+    background-size: cover;
+    border-radius: 15px;
+}
+.sub-contain12{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(242, 228, 207);
+    background-size: cover;
+    border-radius: 15px;
+}
+.sub-contain13{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(24, 26, 36);
+    background-size: cover;
+    border-radius: 15px;
+}
+.sub-contain14{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url('https://images.unsplash.com/photo-1555947289-0d851755094e?ixid=MnwxOTgwNzN8MHwxfHNlYXJjaHw3MXx8c29mdHxlbnwxfHx8fDE2NjE3OTQyNTQ&ixlib=rb-1.2.1&w=3000&q=25');
+    background-size: contain;
+    border-radius: 15px;
+}
+.sub-contain15{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(48, 45, 44);
+    background-size: cover;
+    border-radius: 15px;
+}
+.sub-contain16{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url('https://cdn.gamma.app/cdn-cgi/image/quality=80,fit=scale-down,onerror=redirect,width=250,height=250/https://cdn-staging.gamma.app/QWjS6fBfpt/7c4bcd24cd8940788fd9fb155d789d7f/original/mesh-noise-gradient.png');
+    background-size: cover;
+    border-radius: 15px;
+}
+.sub-contain17{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url('https://images.unsplash.com/photo-1654198340681-a2e0fc449f1b?ixid=MnwxOTgwNzN8MHwxfHNlYXJjaHwxNDZ8fGRhcmslMjBncmFkaWVudHxlbnwxfHx8fDE2NzUyMTQ4NDM&ixlib=rb-4.0.3&w=3000&q=25');
+    background-size: cover;
+    border-radius: 15px;
+}
+.sub-contain18{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url('https://cdn.gamma.app/cdn-cgi/image/quality=80,fit=scale-down,onerror=redirect,width=250,height=250/https://cdn.gamma.app/theme_images/prism-background.2232a16e.png?w=3707&q=70');
+    background-size: cover;
+    border-radius: 15px;
+}
+.sub-contain19{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url('https://cdn.gamma.app/cdn-cgi/image/quality=80,fit=scale-down,onerror=redirect,width=250,height=250/https://cdn.gamma.app/theme_images/aurora-background.77ca5e0ff46d050807e8d907d1b774f8.png');
+    background-size: cover;
+    border-radius: 15px;
+}
+.sub-contain20{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(250, 242, 233);
+    background-size: cover;
+    border-radius: 15px;
+}
+.sub-contain21{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(17, 12, 23);
+    background-size: cover;
+    border-radius: 15px;
+}
+.sub-contain22{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(235, 244, 243);
+    background-size: cover;
+    border-radius: 15px;
+}
+.sub-contain23{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url('https://cdn.gamma.app/cdn-cgi/image/quality=80,fit=scale-down,onerror=redirect,width=250,height=250/https://cdn.gamma.app/theme_images/canaveral-background.5dbf8d8ea7288ff1d7f1055cead80d9f.png');
+    background-size: contain;
+    border-radius: 15px;
+}
+.sub-contain24{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url('https://cdn.gamma.app/cdn-cgi/image/quality=80,fit=scale-down,onerror=redirect,width=250,height=250/https://cdn.gamma.app/theme_images/daydream-background.7fcbd301bfcea3f5878fcd6e8d22502a.png');
+    background-size: contain;
+    border-radius: 15px;
+}
+.sub-contain25{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url('https://cdn.gamma.app/cdn-cgi/image/quality=80,fit=scale-down,onerror=redirect,width=250,height=250/https://cdn.gamma.app/theme_images/orbit-background.f55cf66e62f5fb7b8c1e878071281aa3.png');
+    background-size: contain;
+    border-radius: 15px;
+}
+.sub-contain26{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(247, 237, 233);
+    background-size: cover;
+    border-radius: 15px;
+}
+.sub-contain27{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(12, 12, 14);
+    background-size: cover;
+    border-radius: 15px;
+}
+.sub-contain28{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url('https://cdn.gamma.app/cdn-cgi/image/quality=80,fit=scale-down,onerror=redirect,width=250,height=250/https://cdn.gamma.app/theme_images/soft-background.adac2b12b3164d91b64117595332aa4f.svg');
+    background-size: contain;
+    border-radius: 15px;
+}
+.sub-contain29{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(40, 44, 50);
+    background-size: cover;
+    border-radius: 15px;
+}
+.sub-contain30{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url('https://cdn.gamma.app/cdn-cgi/image/quality=80,fit=scale-down,onerror=redirect,width=250,height=250/https://cdn.gamma.app/theme_images/snowball-bg-xskdx82l.jpg');
+    background-size: contain;
+    border-radius: 15px;
+}
+.card1 {
+    width: 200px;
+}
+
+.bodytag {
+    font-size: 20px;
+    text-align: center;
+}
+
+.css-46bh2p-MuiCardContent-root {
+    padding: 0;
+}
+
+.css-46bh2p-MuiCardContent-root:last-child {
+    padding: 0px !important;
+}
+.scrollable-container {
+    height: 500px;
+    overflow-y: auto;
+}

@@ -1,0 +1,31 @@
+.card-container {
+    width: fit-content;
+    border-radius: 15px;
+}
+
+.sub {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url('https://cdn.gamma.app/cdn-cgi/image/quality=80,fit=scale-down,onerror=redirect,width=250,height=250/https://cdn.gamma.app/theme_images/soft-background.adac2b12b3164d91b64117595332aa4f.svg');
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.card1 {
+    width: 200px;
+}
+
+.bodytag {
+    font-size: 20px;
+    text-align: center;
+}
+
+.css-46bh2p-MuiCardContent-root {
+    padding: 0;
+}
+
+.css-46bh2p-MuiCardContent-root:last-child {
+    padding: 0px !important;
+}
